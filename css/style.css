@@ -1,0 +1,171 @@
+.top-header {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+.top-header .social{
+	width: 50%;
+	margin: 0px;
+	padding: 0px;
+}
+.social li{
+	float: left;
+    margin: 5px;
+    list-style: none;
+    padding-top: 5px;
+
+}
+.social li a {
+    float: left;
+    background-color: white;
+    padding: 3px;
+    margin: 3px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social li a:hover{
+	background-color: red;
+	color: blue;
+} 
+.contact-info{
+    list-style: none;
+    padding: 0;
+    margin:0;
+    float: right;
+}
+.contact-info li{
+    margin-top: 7px;
+    padding-top: 6px;
+    float: left;
+    font-size: 16px;
+    padding-left: 15px;
+}
+.top-news{
+    width: 100%;
+    background-color: red;
+    margin: 0px;
+}
+.news-update{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.news-update .marquee{
+    margin-bottom: 100px;
+}
+.news-update marquee a{
+    text-decoration: none;
+    color: white;
+}
+header img {
+    width: 140px;
+    float: left;
+    padding: 5px 0px 0px 5px;
+}
+header .nav {
+    margin-top: 35px;
+}
+header button.btn.btn-primary {
+    margin-top: 30px;
+}
+header button.btn.btn-outline-primary.me-2 {
+    margin-top: 30px;
+}
+.dropdown-menu{
+    padding: 0px;
+}
+
+ .dropdown-menu li {
+    margin: 0px;
+    padding: 0px;
+}
+a.nav-link {
+    font-size: 23px;
+    margin: -11px 0px 0px -2px;
+    padding: 4px 17px;
+}
+  li.nav-item:hover .dropdown-menu {
+    display: block !important;
+ }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #ff0000;
+}
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #0d6efd;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #0d6efd;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    outline-offset: 15px;
+}
+.marketing img{
+   background: #ed4607;
+    border-radius: 50%;
+    width: 150px;
+}
+.marketing h2{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #6c757d;
+    margin-left: 16px;
+}
+.featurette{
+       background: #faf7eb;
+}
+.featurette img {
+    width: 100%;
+}
+.card{
+    margin: 20px 0px ;
+}
+.menu-food{
+    background: #eaeae9;
+}
+.menu-food img{
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 0px 0px 10px 10px;
+    height: 256px;
+}
+.card-body h5{
+        font-size: 23px;
+    color: red;
+    width: 50%;
+    float: left;
+}
+.card-body p{
+    float: right;
+}
+footer.py-5 {
+    background: radial-gradient(#040404,#000);
+}
+footer.py-5 h5{
+    color: red;
+    font-size: 20px;
+}
+footer.py-5 ul li {
+    color: white;
+}
+
+
+.aboutpage {
+    padding: 40px 0;
+    background: #fafafa;
+}
